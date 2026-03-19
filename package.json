@@ -6,7 +6,7 @@
   "publisher": "PrimeTek",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/neilthors18/CSS-JS-Linker"
   },
   "license": "MIT",
   "engines": {
