@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Página de prueba — CSS/JS Linker</title>
+
+  <!-- Ruta relativa estándar -->
+  <link rel="stylesheet" href="./test-styles.css">
+
+  <!-- Simula ruta Django static -->
+  <!-- <link rel="stylesheet" href="{% static 'css/test-styles.css' %}"> -->
+</head>
+<body>
+
+  <!-- Prueba 1: clase simple -->
+  <div class="container">
+    <!-- Prueba 2: múltiples clases en un atributo -->
+    <button class="btn primary">Acción</button>
+
+    <!-- Prueba 3: id único -->
+    <form id="login-form">
+      <input type="text" class="input-field" id="username">
+      <input type="password" class="input-field" id="password">
+      <button class="btn submit-btn" type="submit">Entrar</button>
+    </form>
+  </div>
+
+  <!-- Ruta relativa a JS -->
+  <script src="./test-script.js"></script>
+</body>
+</html>

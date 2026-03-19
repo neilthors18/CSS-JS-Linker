@@ -1,0 +1,16 @@
+# ── Código fuente TypeScript (el VSIX usa solo el JS compilado en out/) ──
+src/**
+**/*.ts
+**/*.map
+
+# ── Archivos de desarrollo y configuración local ──
+.vscode/**
+.vscode-test/**
+test-samples/**
+node_modules/**
+
+# ── Configuración de herramientas (no necesaria en producción) ──
+tsconfig.json
+.eslintrc.json
+.gitignore
+.vscodeignore
